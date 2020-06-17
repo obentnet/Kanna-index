@@ -1,4 +1,5 @@
 # Kanna-index
+![img](https://img02.sogoucdn.com/app/a/100520146/9cd58ca5354d0c4744453dc53fc6661c)
 ### 介绍
 > 完全自用，根据[拉屎爱哀嚎][1]的主页写的
 >
@@ -47,3 +48,4 @@
 ### 2020狱杰1Jnver
 [1]:https://i.lsaiah.cn/
 [2]:https://i.obent.cn/
+[3]
