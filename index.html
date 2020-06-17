@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="zh-cn">
+    <head>
+        <title>狱杰的主页</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="https://cdnjs.loli.net/ajax/libs/mdui/0.4.3/css/mdui.min.css">
+        <link rel="icon" href="favicon.ico">
+        <style>
+            /*光标选中后的颜色*/
+            /* webkit, opera, IE9 */
+            ::selection { background:lightblue; }
+            /* mozilla firefox */
+            ::-moz-selection { background:lightblue; }
+            .bg{
+                height: 100%;
+                width: 100%;
+                background-image: url(./default.jpg);
+                background-repeat: no-repeat;
+                background-size: auto;
+                z-index:1;
+                position: absolute;
+            }
+            .infos{
+                padding-top:calc(50vh - 200px);
+                text-align: center;
+                margin: auto;
+                z-index: 5;
+                position: relative;
+            }
+            .head-img{
+                border-radius:50%;
+                width: 8%;
+                border:3px solid #2196F3;
+            }
+            .head-img:hover{
+            }
+            .index-shadow{
+                letter-spacing:8px;
+                color:#fff;
+                text-shadow: 0 0 8px rgba(255, 255, 255, .55);
+            }
+            .copy-font{
+                color:#fff;
+                text-shadow: 0 0 8px rgba(255, 255, 255, .55);
+            }
+            .main-hr{
+                margin:5vh 10vw 5vh 10vw ;
+                width: 80%;
+                background-color: rgba(255, 255, 255, .3);
+            }
+            /*Buttons*/
+            .button-color-pink{
+                border-bottom:1.5px solid #F9A2A8;
+                transition: 0.5s;
+            }
+            .button-color-pink:hover{
+                background-color:#F9A2A8;
+            }
+
+            /**针对此页面的手机端CSS优化**/
+            @media screen and (max-width: 960px){
+                .head-img{
+                        border-radius: 50%;
+                        width: 30%;
+                        border: 3px solid #2196F3;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        
+        <div class="main">
+            <div class="bg"></div>
+            <div class="infos">
+                <img src="./head.jpg" class="head-img" alt="">
+                <h1 class="index-shadow">狱 杰 の 主 页</h1>
+                <h3 class="index-shadow">「For The Dream」</h3>
+                <div class="mdui-divider main-hr"></div>
+                <div class="links mdui-typo">
+                    <a href="./more.html">
+                        <button class="mdui-btn mdui-btn-raised mdui-ripple button-color-pink">MORE</button>
+                    </a>
+                </div>
+                <div class="copy">
+                    <h6 class="copy-font">Copyright &copy;2020 By 狱杰1Jnver | Kanna-index | DANGO PROJECT</h6>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <script>
+                // var randomBgIndex =  parseInt(6*Math.random());
+		        //    document.write('<style>.bg{background: rgba(255, 255, 255, 0.0) url("./bgs/bg'+ randomBgIndex +'.jpg"); background-size:100% 100%; background-repeat:no-repeat;}</style>');
+            </script>
+            <script src="https://cdnjs.loli.net/ajax/libs/mdui/0.4.3/js/mdui.min.js"></script>
+        </footer>
+    </body>
+</html>

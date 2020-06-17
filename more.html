@@ -1,0 +1,322 @@
+<html>
+    <head>
+        <title>狱杰的主页 | MORE</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+        <link rel="stylesheet" href="https://cdnjs.loli.net/ajax/libs/mdui/0.4.3/css/mdui.min.css">
+        <link rel="icon" href="favicon.ico">
+        <link rel="stylesheet" href="./static/iconfont.css">
+        <link rel="stylesheet" href="./button.css">
+        <style>
+            /*光标选中后的颜色*/
+            /* webkit, opera, IE9 */
+            ::selection { background:lightblue; }
+            /* mozilla firefox */
+            ::-moz-selection { background:lightblue; }
+            .bg{
+                height: 100%;
+                width: 100%;
+                background-image: url(./default.jpg);
+                background-repeat: no-repeat;
+                background-size: auto;
+                z-index:1;
+                position: absolute;
+            }
+            .infos{
+                padding-top:calc(50vh - 200px);
+                margin: auto;
+                z-index: 5;
+                position: relative;
+            }
+            .index-shadow{
+                letter-spacing:8px;
+                color:#fff;
+                text-shadow: 0 0 8px rgba(255, 255, 255, .55);
+            }
+            .copy-font{
+                color:#fff;
+                text-shadow: 0 0 8px rgba(255, 255, 255, .55);
+            }
+
+            .head-img{
+                border-radius:50%;
+                width: 8%;
+                border:3px solid #2196F3;
+            }
+
+            /*Buttons*/
+            .button-color-pink{
+                border-bottom:1.5px solid #F9A2A8;
+                transition: 0.5s;
+            }
+            .button-color-pink:hover{
+                background-color:#F9A2A8;
+            }
+
+            .button-color-blue{
+                border-bottom:1.5px solid #2196F3;
+                transition: 0.5s;
+            }
+            .button-color-blue:hover{
+                background-color: #2196F3;
+            }
+            .button-color-orange{
+                border-bottom: 1.5px solid #ffd602;
+                transition: 0.5s;
+            }
+            .button-color-orange:hover{
+                background-color: #ffd602;
+            }
+            .button-color-black{
+                border-bottom: 1.5px solid black;
+                transition: 0.5s;
+            }
+            .button-color-black:hover{
+                background-color: black;
+            }
+
+            .cards{
+                padding: 30px;
+                margin: -9% 14vw 0 14vw;
+                background-color: rgba(66, 66, 66, .3);
+            }
+            h2::before{
+                color: #2196F3;
+                content: "#";
+                padding: 5px;
+            }
+            h2{
+                font-weight: 400;
+            }
+            article{
+                color:#fff;
+            }
+            .mdui-col-md-4{
+                margin-top:1%;
+            }
+
+            .links>a{
+                color:#fff;
+            }
+
+            article{
+                margin-top:2%;
+            }
+
+
+
+            .footer{
+                margin-top:2%;
+                text-align: center;
+            }
+            .rin-tr{                
+                margin-bottom: 20px;
+                width: 80%;
+                height: 2px;
+                margin: auto;
+                background: rgba(255, 255, 255, .3);
+            }
+             /**针对此页面的手机端CSS优化**/
+             @media screen and (max-width: 960px){
+                .head-img{
+                        border-radius: 50%;
+                        width: 25%;
+                        border: 3px solid #2196F3;
+                }
+                .cards{
+                    margin:-45% 5vw 0 5vw;
+                }
+                .links>a{
+                    margin-top: 7px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="main">
+            <div class="bg"></div>
+            <div class="infos">
+                <div class="cards mdui-card">
+                    <!--ABOUT-->
+                    <article>
+                        <div class="about-head" style="text-align: center;">
+                            <img src="./head.jpg" class="head-img" alt="">
+                        </div>
+                        <div class="about-infos" style="text-align: center;">
+                            <h4>就一啥都不会的萌新</h4>
+                        </div>
+                        <h4></h4>
+                    </article>
+
+                    <article>
+                        <h2>技能</h2>
+                        <div class="card-mod mdui-container">
+                            <div class="one-line">
+
+                                <div class="mdui-col-xs-12 mdui-col-sm-6 mdui-col-md-4" mdui-tooltip="{content: '就会那么一点点'}">
+                                    <div class="mdui-container">
+        
+                                        <div class="mdui-row mdui-valign">
+                                            <div class="mdui-col-xs-4">
+                                                <div class="rin-card-content">
+                                                    HTML/CSS
+                                                </div>
+                                            </div>
+                                            <div class="mdui-col-xs-8">
+                                                <div class="mdui-progress">
+                                                    <div class="mdui-progress-determinate mdui-color-white" style="width: 20%;"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="mdui-col-xs-12 mdui-col-sm-6 mdui-col-md-4" mdui-tooltip="{content: '完全不知道'}">
+                                    <div class="mdui-container">
+        
+                                        <div class="mdui-row mdui-valign">
+                                            <div class="mdui-col-xs-4">
+                                                <div class="rin-card-content">
+                                                    Javascript
+                                                </div>
+                                            </div>
+                                            <div class="mdui-col-xs-8">
+                                                <div class="mdui-progress">
+                                                    <div class="mdui-progress-determinate mdui-color-white" style="width: 0%;"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="mdui-col-xs-12 mdui-col-sm-6 mdui-col-md-4" mdui-tooltip="{content: '不太了解'}">
+                                    <div class="mdui-container">
+        
+                                        <div class="mdui-row mdui-valign">
+                                            <div class="mdui-col-xs-4">
+                                                <div class="rin-card-content">
+                                                    Python
+                                                </div>
+                                            </div>
+                                            <div class="mdui-col-xs-8">
+                                                <div class="mdui-progress">
+                                                    <div class="mdui-progress-determinate mdui-color-white" style="width: 15%;"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--Line-->
+
+                                <div class="mdui-col-xs-12 mdui-col-sm-6 mdui-col-md-4" mdui-tooltip="{content: '比较容易静下心来'}">
+                                    <div class="mdui-container">
+        
+                                        <div class="mdui-row mdui-valign">
+                                            <div class="mdui-col-xs-4">
+                                                <div class="rin-card-content">
+                                                    耐心
+                                                </div>
+                                            </div>
+                                            <div class="mdui-col-xs-8">
+                                                <div class="mdui-progress">
+                                                    <div class="mdui-progress-determinate mdui-color-white" style="width: 80%;"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="mdui-col-xs-12 mdui-col-sm-6 mdui-col-md-4" mdui-tooltip="{content: 'JUST DO IT!'}">
+                                    <div class="mdui-container">
+        
+                                        <div class="mdui-row mdui-valign">
+                                            <div class="mdui-col-xs-4">
+                                                <div class="rin-card-content">
+                                                    毅力
+                                                </div>
+                                            </div>
+                                            <div class="mdui-col-xs-8">
+                                                <div class="mdui-progress">
+                                                    <div class="mdui-progress-determinate mdui-color-white" style="width: 30%;"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="mdui-col-xs-12 mdui-col-sm-6 mdui-col-md-4" mdui-tooltip="{content: '满怀期待'}">
+                                    <div class="mdui-container">
+        
+                                        <div class="mdui-row mdui-valign">
+                                            <div class="mdui-col-xs-4">
+                                                <div class="rin-card-content">
+                                                    对世界的期待
+                                                </div>
+                                            </div>
+                                            <div class="mdui-col-xs-8">
+                                                <div class="mdui-progress">
+                                                    <div class="mdui-progress-determinate mdui-color-white" style="width: 80%;"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </article>
+
+
+                    <!--Project List-->
+                    <article>
+                        <h2>拿得出手的项目</h2>
+                        <div class="links">
+                          <a href="https://yujienb.cn" class="mdui-btn mdui-btn-raised rin-btn rin-btn-blue mdui-text-capitalize button-color-blue" style="margin-left: 1%;" target="_blank"><span><i class="mdui-icon material-icons">&#xe88a;</i>狱杰的博客</span></a>
+                          <a href="https://obent.cn" class="mdui-btn mdui-btn-raised rin-btn rin-btn-blue mdui-text-capitalize button-color-orange" style="margin-left: 1%;" target="_blank"><span><i class="mdui-icon material-icons">&#xe865;</i>狱杰の手记</span></a>
+                          <a href="https://cdn.supereq.cn" class="mdui-btn mdui-btn-raised rin-btn rin-btn-blue mdui-text-capitalize button-color-blue" style="margin-left: 1%;" target="_blank"><span><i class="mdui-icon material-icons">&#xe2be;</i>YU | CDN</span></a>
+                          <a href="https://studio.yujienb.cn" class="mdui-btn mdui-btn-raised rin-btn rin-btn-blue mdui-text-capitalize button-color-black" style="margin-left: 1%;" target="_blank"><span><i class="mdui-icon material-icons">&#xe86d;</i> YU | STUDIO</span></a>
+                          <a href="https://api.pixic.top" class="mdui-btn mdui-btn-raised rin-btn rin-btn-blue mdui-text-capitalize button-color-black" style="margin-left: 1%;" target="_blank"><span>🔞SETU&nbsp;<font style="background-color:#f7971e;border-radius: 4px;">&nbsp;API&nbsp;</font>🔞</span></a>
+                        </div>
+                    </article>
+
+                    <!--Links-->
+                    <article>
+                        <h2>联系方式</h2>
+                        <div class="links">
+                            <a href="mailto:obent@qq.com" class="mdui-btn mdui-btn-raised rin-btn rin-btn-blue mdui-text-capitalize button-color-gmail" style="margin-left: 1%;" target="_blank"><span class="iconfont icon-mail">Mail</span></a>
+                            <a href="https://github.com/obentnet" class="mdui-btn mdui-btn-raised rin-btn rin-btn-blue mdui-text-capitalize button-color-github" style="margin-left: 1%;" target="_blank"><span class="iconfont icon-github">Github</span></a>
+                            <a href="http://wpa.qq.com/msgrd?v=3&uin=1283224552&site=qq&menu=yes" class="mdui-btn mdui-btn-raised rin-btn rin-btn-blue mdui-text-capitalize button-color-blue" style="margin-left: 1%;" target="_blank"><span class="iconfont icon-QQ">QQ</span></a>
+                            <a href="https://obent.cn/media/images/custom-wechat.png" class="mdui-btn mdui-btn-raised rin-btn rin-btn-blue mdui-text-capitalize button-color-weixin" style="margin-left: 1%;" target="_blank"><span class="iconfont icon-weixin">WeChat</span></a>
+                            <a href="https://weibo.com/obent" class="mdui-btn mdui-btn-raised rin-btn rin-btn-blue mdui-text-capitalize button-color-weibocolor" style="margin-left: 1%;" target="_blank"><span class="iconfont icon-weibo">Weibo</span></a>
+                            <a href="https://space.bilibili.com/20980892" class="mdui-btn mdui-btn-raised rin-btn rin-btn-blue mdui-text-capitalize button-color-blue" style="margin-left: 1%;" target="_blank"><span class="iconfont icon-bilibili-fill">Bilibili</span></a>
+                            <a href="https://twitter.com/obentnet" class="mdui-btn mdui-btn-raised rin-btn rin-btn-blue mdui-text-capitalize button-color-twitter" style="margin-left: 1%;" target="_blank"><span class="iconfont icon-twitter">Twitter</span></a>
+                            <a href="https://t.me/obentnet" class="mdui-btn mdui-btn-raised rin-btn rin-btn-blue mdui-text-capitalize button-color-telegram" style="margin-left: 1%;" target="_blank"><span class="iconfont icon-telegram">Telegram</span></a>
+                            <a href="https://www.zhihu.com/people/yu-jie-83-35" class="mdui-btn mdui-btn-raised rin-btn rin-btn-blue mdui-text-capitalize button-color-zhihu" style="margin-left: 1%;" target="_blank"><span class="iconfont icon-zhihu"> 知乎</span></a>
+                        </div>
+                    </article>
+
+
+
+                    <div class="footer">
+                        <div class="rin-tr"></div>
+                        <h3 style="color:white;font-weight:400;" class="index-shadow">@狱杰1Jnver</h3>
+                        <h6 style="margin:0;color:white;letter-spacing:5px;">不知何时 那只小手中也已拥有超越我们的力量</h6>
+                        <div class="copy">
+                            <h6 class="copy-font" style="margin-bottom: 0;margin-top: 1%;">Copyright &copy;2020 By 狱杰1Jnver | Kanna-index | DANGO PROJECT</h6>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <footer>
+            <script>
+                 // var randomBgIndex =  parseInt(6*Math.random());
+		         //   document.write('<style>.bg{background: rgba(255, 255, 255, 0.0) url("./bgs/bg'+ randomBgIndex +'.jpg"); background-size:100% 100%; background-repeat:no-repeat;}</style>');
+            </script>
+            <script src="https://cdnjs.loli.net/ajax/libs/mdui/0.4.3/js/mdui.min.js"></script>
+        </footer>
+    </body>
+</html>

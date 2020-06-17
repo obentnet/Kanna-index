@@ -1,0 +1,56 @@
+ /**社交平台配色**/
+ .button-color-gmail{
+    border-bottom: 1.5px solid #d64a3a;
+    transition: 0.5s;
+}
+.button-color-gmail:hover{
+    background-color: #d64a3a;
+}
+
+.button-color-weibocolor{
+    border-bottom: 1.5px solid #ff8140;
+    transition: 0.5s;
+}
+.button-color-weibocolor:hover{
+    background-color:#ff8140;
+}
+
+.button-color-weixin{
+    border-bottom: 1.5px solid #66BB6A;
+    transition: 0.5s;
+}
+.button-color-weixin:hover{
+    background-color: #66BB6A;
+}
+
+.button-color-github{
+    border-bottom: 1.5px solid #24292e;
+    transition: 0.5s;
+}
+.button-color-github:hover{
+    background-color: #24292e;
+}
+
+.button-color-twitter{
+    border-bottom: 1.5px solid #41aae1;
+    transition: 0.5s;
+}
+.button-color-twitter:hover{
+    background-color: #41aae1;
+}
+
+.button-color-telegram{
+    border-bottom: 1.5px solid #34b0e3;
+    transition: 0.5s;
+}
+.button-color-telegram:hover{
+    background-color: #34b0e3;
+}
+
+.button-color-zhihu{
+    border-bottom: 1.5px solid #0084ff;
+    transition: 0.5s;
+}
+.button-color-zhihu:hover{
+    background-color:#0084ff;
+}
